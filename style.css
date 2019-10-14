@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.container .container_change{
+    border-color: black;
+    border: 10px;
+}
+
+#header_one {
+text-align: center;
+ padding: 10px;
+ margin-top: 80px;
+ 
+}
+
+#sub_header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#form {
+ border: 3px solid red;
+ padding: 5px;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ display: center;
+}
+
+h1 {
+    
+    font-size: 70px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;  
+    padding: 5px;
+}
+
+h3 {
+    margin-top: 2px;
+    margin-left: 2px;
+    text-emphasis: bold;
+}
+#item1 {
+background-color: aqua;
+border: 5px solid black;
+padding: 5px;
+
+}
+
+
+
+#item2 {
+    background-color: orchid;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    }
+        
+#item3 {
+    background-color: gray;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+        }
+        
+#item4 {
+        background-color: goldenrod;
+        padding: 5px;
+        border: 5px solid black;
+            }
+
+aria-label {
+    size: 5px;
+}
+
+
+          
+    
