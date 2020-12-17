@@ -6,4 +6,4 @@ This project was built in October 2019, using:
 
 I will rebuild it using the same UI + JavaScript.
 
-Here is the link:
+Here is the link: https://leiladossantos11.github.io/TO_DO_APP/
