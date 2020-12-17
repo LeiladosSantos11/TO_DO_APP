@@ -1,6 +1,6 @@
 # TO_DO_APP
 
-Project built using:
+This project was built in October 2019, using:
 - HTML and 
 - CSS
 
