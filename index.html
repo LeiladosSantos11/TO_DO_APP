@@ -1,83 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="container container_change" >
-        <div class="row"> 
-            <div class="col-md-8 mx-auto" >
-                <h1 id="header_one">MY TO DO LIST <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                    width="96" height="96"
-                    viewBox="0 0 172 172"
-                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e74c3c"><path d="M0,35.83333v100.33333h100.33333v-75.86589l-50.16667,50.16666l-30.15039,-30.15039l10.13411,-10.13411l20.01628,20.01628l50.16667,-50.16667v-4.19922zM114.66667,78.83333v14.33333h57.33333v-14.33333z"></path></g></g></svg></h1>
 
-            
+<body>
+    <div class="container container_change">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1 id="header_one">MY TO DO LIST</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <form id="form" class="col-md-6 mx-auto">
+                    <div class="input-group">
+                        <input id="input" class="form-control" placeholder="Write your todo list"
+                            value="Write your todo list here:">
+                        <span>
+                            <button id="btn" type="button" class="btn btn-primary"><strong>+</strong></button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8 mx-auto">
+                <h3 id="sub_header"><strong>Well done :-)</strong> You have completed <strong>3</strong> tasks!</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="item1">
+                    <h3>TASK 1:</h3>
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
+                </div>
+                <div class="col-md-3" id="item2">
+                    <h3>TASK 2:</h3>
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
+                </div>
+                <div class="col-md-3" id="item3">
+                    <h4>TASK 3:</h4>
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
+                </div>
+                <div class="col-md-3" id="item4">
+                    <h3>TASK 4:</h3>
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container">
-
-            <div class="row">
-				<form id="form" class="col-md-6 mx-auto">
-					<div class="input-group">
-						<input id="input" class="form-control" placeholder="Write your todo list" value="Write your todo list here:">
-						<span>
-							<button id="btn" type="button" class="btn btn-primary"><strong>+</strong></button>
-						</span>
-					</div>			     
-				</form>
-            </div>	
-            <div class="col-md-8 mx-auto" >
-                <h3 id="sub_header"><strong>Congratulations :-)</strong> You have done <strong>3</strong> tasks!</h3>
-            </div>
-            <div class="row">
-            <div class="col-md-3" id="item1">
-                <h3>TASK 1:</h3>
-                
-                        <input type="checkbox" aria-label="Checkbox for following text input"> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
-                      </div>
-                    
-                
-            
-
-            <div class="col-md-3" id="item2">
-                <h3>TASK 2:</h3>
-                <input type="checkbox" aria-label="Checkbox for following text input">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
-
-            </div>
-            <div class="col-md-3" id="item3">
-                <h4>TASK 3:</h4>
-                <input type="checkbox" aria-label="Checkbox for following text input">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
-            </div>
-            <div class="col-md-3" id="item4">
-                <h3>TASK 4:</h3>
-                <input type="checkbox" aria-label="Checkbox for following text input">
-                
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <img src="https://img.icons8.com/color/48/000000/delete-forever.png">
-                       
-                       
-                    </div>
-                      </div>
-
-
-
-                
-                
-            </div>
-        </div>
-    
-    
+    <footer>
+        <p>Made by Leila dos Santos</p>
+    </footer>
 </body>
+
 </html>
